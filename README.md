@@ -1,6 +1,6 @@
 # DXS | DOTNET first blazor application
  
- ## WHAT WE WILL DO HERE?
+ ## WHAT WE WILL DO HERE?  
     This application give you a basic knowledge about creating a new component, inserting them to a page, creating a new public parameter to modify one component behavior at page in importing time.
     
  ### Information
