@@ -1,8 +1,7 @@
 # DXS | DOTNET first blazor application
  
- ### WHAT WE WILL DO HERE?  
-    This application give you a basic knowledge about creating a new component, inserting them to a page, creating a new public parameter  
-    to modify one component behavior at page in importing time.
+ ### WHAT WE WILL DO HERE?
+This application give you a basic knowledge about creating a new component, inserting them to a page, creating a new public parameter to modify one component behavior at page in importing time.
     
  ### Information
 Program.cs is the entry point for the app that starts the server and where you configure the app services and middleware.  
