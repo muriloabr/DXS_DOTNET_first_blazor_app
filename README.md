@@ -1,7 +1,7 @@
-# DXS_DOTNET_first_blazor_app
+# DXS | DOTNET first blazor application
  
  ### Information
-    Program.cs is the entry point for the app that starts the server and where you configure the app services and middleware.  
+Program.cs is the entry point for the app that starts the server and where you configure the app services and middleware.  
     App.razor is the root component for the app.  
     The Pages directory contains some example web pages for the app.  
     BlazorApp.csproj defines the app project and its dependencies.  
