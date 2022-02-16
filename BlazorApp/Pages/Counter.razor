@@ -9,10 +9,13 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private int currentCount = 0;
+     private int currentCount = 0;
+
+    [Parameter]
+    public int IncrementAmount { get; set; } = 1; //INICIALIZANDO COM PADRAO VALOR 1 CASO NAO SEJA SETADO!
 
     private void IncrementCount()
     {
-        currentCount++;
+        currentCount += IncrementAmount; //INCREMENTO DEPENDE DO VALOR DE IncrementAmount [1 ou o setado ao fazer o include do componente na pagina]
     }
 }
