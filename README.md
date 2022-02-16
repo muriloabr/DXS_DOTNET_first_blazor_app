@@ -33,4 +33,8 @@ Define a parameter on the Counter component for specifying how much it increment
     Add a public property for IncrementAmount with a [Parameter] attribute.  
     Change the IncrementCount method to use the IncrementAmount when incrementing the value of currentCount.  
 
+### Run command
+    dotnet watch
 
+Fiquem por dentro deste repositório com atualizações sempre que possível!  
+[DOTNET] #notnet #blazor
