@@ -6,10 +6,7 @@ This application give you a basic knowledge about creating a new component, inse
     
  ### Information
 Program.cs is the entry point for the app that starts the server and where you configure the app services and middleware.  
-    App.razor is the root component for the app.  
-    The Pages directory contains some example web pages for the app.  
-    BlazorApp.csproj defines the app project and its dependencies.  
-    The launchSettings.json file inside the Properties directory defines different profile settings for the local development     environment. A port number ranging between 5000-5300 is automatically assigned at project creation and saved on this file.    
+    App.razor is the root component for the app. The Pages directory contains some example web pages for the app. BlazorApp.csproj defines the app project and its dependencies. The launchSettings.json file inside the Properties directory defines different profile settings for the local development environment. A port number ranging between 5000-5300 is automatically assigned at project creation and saved on this file.  
 
 ### Homepage basics
 The displayed page is defined by the Index.razor file located inside the Pages directory. This is what its contents look like:
@@ -17,22 +14,19 @@ The displayed page is defined by the Index.razor file located inside the Pages d
 
 ### Counter click function
 Each time the Click me button is selected:  
-    The onclick event is fired.  
-    The IncrementCount method is called.  
-    The currentCount is incremented.  
-    The component is rendered to show the updated count.  
+- The onclick event is fired.  
+- The IncrementCount method is called.  
+- The currentCount is incremented.  
+- The component is rendered to show the updated count.  
 
 ### Adding a component
-Each of the .razor files defines a UI component that can be reused.
-    Open the Index.razor file in a text editor of your choice. The Index.razor file already exists,  
-    and it was created when you ran the dotnet new command.  
-    It's located in the Pages folder inside the BlazorApp directory that was created earlier.  
+Each of the .razor files defines a UI component that can be reused. Open the Index.razor file in a text editor of your choice. The Index.razor file already exists, and it was created when you ran the dotnet new command. It's located in the Pages folder inside the BlazorApp directory that was created earlier.  
 
 ### Modify a component
 Component parameters are specified using attributes or child content, which allow you to set properties on the child component.  
 Define a parameter on the Counter component for specifying how much it increments with every button click:
-    Add a public property for IncrementAmount with a [Parameter] attribute.  
-    Change the IncrementCount method to use the IncrementAmount when incrementing the value of currentCount.  
+- Add a public property for IncrementAmount with a [Parameter] attribute.  
+- Change the IncrementCount method to use the IncrementAmount when incrementing the value of currentCount.  
 
 ### Run command
     dotnet watch
