@@ -1,4 +1,4 @@
-# DXS | DOTNET first blazor application
+# DXS | DOTNET : first blazor application
 <img src="https://dataxstudios.com.br/assets/images/logo_DXS_400_190.png" alt="dxs" width="100"/> 
  
  ### WHAT WE WILL DO HERE?  
