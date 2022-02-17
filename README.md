@@ -5,8 +5,7 @@
 This application give you a basic knowledge about creating a new component, inserting them to a page, creating a new public parameter to modify one component behavior at page in importing time. Here we also have examples of routes, navigation between new pages, use and import of classes, method as a service, inject and asynchronous tasks.  
     
  ### Information
-Program.cs is the entry point for the app that starts the server and where you configure the app services and middleware.  
-    App.razor is the root component for the app. The Pages directory contains some example web pages for the app. BlazorApp.csproj defines the app project and its dependencies. The launchSettings.json file inside the Properties directory defines different profile settings for the local development environment. A port number ranging between 5000-5300 is automatically assigned at project creation and saved on this file.  
+Program.cs is the entry point for the app that starts the server and where you configure the app services and middleware. App.razor is the root component for the app. The Pages directory contains some example web pages for the app. BlazorApp.csproj defines the app project and its dependencies. The launchSettings.json file inside the Properties directory defines different profile settings for the local development environment. A port number ranging between 5000-5300 is automatically assigned at project creation and saved on this file.  
 
 ### Homepage basics
 The displayed page is defined by the Index.razor file located inside the Pages directory. This is what its contents look like:
